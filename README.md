@@ -29,7 +29,7 @@
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
- ``bash
+ ```
 $ docker compose up
 ```
 * Add in .env file
