@@ -21,12 +21,23 @@
 </p>
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## Tutorial
+* https://medium.com/@bruceguenkam/how-to-create-authentication-system-with-jwt-using-nestjs-and-prisma-e803d899a7a7
 
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
+ ``bash
+$ docker compose up
+```
+* Add in .env file
+```
+DATABASE_URL="postgres://postgres:postgres@localhost:5431/nameDataBase"
+SECRETKEY=mycustomuselongsecret
+EXPIRESIN="60 days"
+```
 
 ```bash
 $ npm install
